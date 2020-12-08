@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo>span {
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 5%;
+    padding-left:  3%;
+    font-family: "Lucida Console", Courier, monospace;
+}
+.link>ul>li {
+    display: inline;
+    float: right;    
+    margin-right: 3%;
+    padding: 60px;
+    padding-top: 10px;
+   
+}
+.link>ul>li>a:hover {
+    color: rgb(158, 20, 20);
+}
+/* .link>ul>li>a {
+    text-decoration: none;
+} */
+.photo>.hinh1 {
+    display: block  ;
+    width: 90%;
+    padding: 3%;
+}
+.selection {
+    display: inline-block;
+    padding-left: 7%;
+    /* padding-right: 3%; */
+    text-align: justify;
+    line-height: 1;
+}
+.selection>span{
+    font-size: 14pt;   
+}
+.selection>h1 {
+    font-size: 30px;
+    line-height: 3;
+}
+.selection>p{
+    /* display: inline-block; */
+    font-size: 14pt;
+    font-family: serif;
+    width: 88%;
+    padding-bottom: 160px;
+}
+.item-list {
+    /* display: inline; */
+    height: 150px;
+    padding-left: 7%;
+    width: 100%;
+    height: 100%;
+}
+.item-list>article{
+    display: block;
+}
+.list-1 {
+    width: 50%;
+    float: left;
+    padding-bottom: 100px;
+}
+.list-1>h5 {
+    line-height: 3;
+    font-size: 14pt;
+}
+.list-1>h1 {
+    line-height: 3;
+}
+.item-list>.list-1>p {
+    /* display: inline-block; */
+    font-size: 14pt;
+    font-family: serif;
+    width: 60%;
+}
+.heading {
+    display: inline;
+    
+}
+.heading>img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: -140px;
+}
+.heading>.content {
+    display: inline;
+    text-align: center;
+    line-height: 2;
+}
+.acticle-1 {
+    display: block;
+    padding-top: 90px ;
+}
+.Nut{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgb(12, 12, 12);
+    text-align: center;
+    margin-left: 45%;
+    padding: 10px;
+  
+}
+.Nut>ul>li {
+    padding-top: 15px;
+    list-style-type: none;
+}
+.Nut>ul>li>a {
+    text-decoration: none;
+    font-style: bold;
+}
+.Nut>ul>li>a:hover{
+    color: rgb(145, 28, 28);
+}
+.footer {
+    display: block;
+    background-color: rgb(231, 226, 226);
+    height: 100px;
+    width: 100%;
+    margin-top: 700px;
+}
+.footer>.background>img {
+    width: 100%;
+    height: 100px;
+    padding-top: 300px;
+    /* margin-bottom: -50px; */
+}
+.link-2>a {
+    display: inline;
+    padding: 50px 10px;
+    float: left;
+    text-decoration: none;
+}
+.footer>.icon>ul>li{
+    display: inline-block;
+    padding: 50px 10px;
+    float: right;
+
+}
+a {
+    text-decoration: none;
+}
+
+
+
+
