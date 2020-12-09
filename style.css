@@ -10,11 +10,13 @@
     font-family: "Lucida Console", Courier, monospace;
 }
 .link>ul>li {
+    color: rgb(15, 15, 15);
     display: inline;
     float: right;    
     margin-right: 3%;
     padding: 60px;
     padding-top: 10px;
+    
    
 }
 .link>ul>li>a:hover {
