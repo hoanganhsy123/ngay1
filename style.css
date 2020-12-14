@@ -1,152 +1,133 @@
-*{
-    padding: 0;
-    margin: 0;
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.logo>span {
-    display: inline-block;
-    font-size: 30px;
-    margin-top: 5%;
-    padding-left:  3%;
-    font-family: "Lucida Console", Courier, monospace;
+.header {
+    overflow: hidden;
 }
-.link>ul>li {
-    color: rgb(15, 15, 15);
-    display: inline;
-    float: right;    
-    margin-right: 3%;
-    padding: 60px;
-    padding-top: 10px;
-    
-   
+.logo {
+    width: 10%;
+    float: left;
+    /* padding-right: 30%; */
 }
-.link>ul>li>a:hover {
-    color: rgb(158, 20, 20);
-}
-/* .link>ul>li>a {
-    text-decoration: none;
-} */
-.photo>.hinh1 {
-    display: block  ;
+.menu {
     width: 90%;
-    padding: 3%;
+    float: left;
 }
-.selection {
+.menu :hover {
+    color: rgb(199, 11, 11);
+}
+ul > li{
+    list-style-type: none;
     display: inline-block;
-    padding-left: 7%;
-    /* padding-right: 3%; */
+    width: 24.5%;
+    text-align: right;
+}
+ul > li >a {
+    text-decoration: none;
+}
+.photo > .hinh1 {
+    margin: auto;
+    padding-bottom: 70px;
+    padding-left: 5%;
+}
+.photo > .selection {
     text-align: justify;
-    line-height: 1;
+    padding: 0 7%;
 }
-.selection>span{
-    font-size: 14pt;   
-}
-.selection>h1 {
-    font-size: 30px;
+.selection > h1 {
     line-height: 3;
+    font-size: 30px ;
 }
-.selection>p{
-    /* display: inline-block; */
-    font-size: 14pt;
-    font-family: serif;
-    width: 88%;
-    padding-bottom: 160px;
-}
-.item-list {
-    /* display: inline; */
-    height: 150px;
+.article > .item-list {
+    padding-top: 60px;
+    /* margin: auto 7%; */
     padding-left: 7%;
-    width: 100%;
-    height: 100%;
 }
-.item-list>article{
-    display: block;
-}
-.list-1 {
+.article > .item-list > .list-1{
     width: 50%;
     float: left;
-    padding-bottom: 100px;
+    overflow: hidden;
+    padding-top: 75px
 }
-.list-1>h5 {
+
+
+.list-1 > h5 {
+    padding-top: 30px;
+}
+.list-1 > h1 {
+    font-size: 26px;
+    /* width: 420px; */
     line-height: 3;
-    font-size: 14pt;
 }
-.list-1>h1 {
-    line-height: 3;
-}
-.item-list>.list-1>p {
-    /* display: inline-block; */
-    font-size: 14pt;
-    font-family: serif;
-    width: 60%;
+.list-1 > p {
+    text-align: justify;
+    padding-right: 18%;
 }
 .heading {
-    display: inline;
-    
-}
-.heading>img {
-    width: 100%;
-    height: 200px;
-    margin-bottom: -140px;
-}
-.heading>.content {
-    display: inline;
-    text-align: center;
-    line-height: 2;
-}
-.acticle-1 {
-    display: block;
-    padding-top: 90px ;
-}
-.Nut{
     display: inline-block;
-    width: 100px;
-    height: 40px;
-    border: 1px solid rgb(12, 12, 12);
+    /* padding: auto 30px; */
+}
+.heading > .content {
+    padding-top: 50px;
     text-align: center;
-    margin-left: 45%;
-    padding: 10px;
-  
+    margin-top: 70px;
+    background: rgb(184, 182, 182);
+    height: 150px;
+    width: 100%;
+    margin-left: 6%;
+    /* background-repeat   : no-repeat; */
 }
-.Nut>ul>li {
-    padding-top: 15px;
-    list-style-type: none;
+.text  > h2 {
+    padding-bottom: 40px;
+    font-size: 20pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.Nut>ul>li>a {
-    text-decoration: none;
-    font-style: bold;
+.Nut {
+    display: inline-block;
+    border: 2px solid black;
+    width: 135px;
+    height: 50px;
+    /* margin-top: 130px;
+    margin-left: 600px; */
+    text-align: center;
+    margin: 100px 50% 600px 44%;
 }
-.Nut>ul>li>a:hover{
-    color: rgb(145, 28, 28);
+.Nut ul {
+    padding-top: 17px;
+}
+.Nut  ul li  {
+    width: 95px;
+    text-align: center;
 }
 .footer {
+    background: rgb(222, 220, 220);
+    height: 50px;
+    overflow: hidden;
+    margin-top: 250px;
     display: block;
-    background-color: rgb(231, 226, 226);
-    height: 100px;
-    width: 100%;
-    margin-top: 700px;
+    padding-top: 31px;
 }
-.footer>.background>img {
-    width: 100%;
-    height: 100px;
-    padding-top: 300px;
-    /* margin-bottom: -50px; */
-}
-.link-2>a {
-    display: inline;
-    padding: 50px 10px;
-    float: left;
-    text-decoration: none;
-}
-.footer>.icon>ul>li{
+.footer > .link-2 {
     display: inline-block;
-    padding: 50px 10px;
-    float: right;
-
+    width: 30%;
 }
-a {
+.footer > .link-2 > a {
     text-decoration: none;
+    list-style-type: none;
 }
-
-
-
-
+.footer > .icon {
+    width: 70%;
+    float: right;
+}
+.icon > ul {
+    width: 30%; 
+    float: right; 
+    display: inline-block;
+}
+.icon > ul >li {
+    width: 15%;
+}
