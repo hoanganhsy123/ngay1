@@ -8,6 +8,7 @@
 .header {
     overflow: hidden;
     padding-bottom: 100px;
+    margin-top: 30px ;
 }
 .logo {
     width: 10%;
@@ -39,9 +40,17 @@ ul > li >a {
     text-align: justify;
     padding: 0 7%;
 }
+h3 {
+    line-height: 5;
+    font-size: 14px;
+    opacity: 0.2;
+}
 .selection > h1 {
     line-height: 3;
     font-size: 30px ;
+}
+.selection > span {
+    opacity: 0.2;
 }
 .article > .item-list {
     /* padding-top: 60px; */
@@ -55,6 +64,7 @@ ul > li >a {
 }
 .list-1 > h5 {
     padding-top: 30px;
+    opacity: 0.2;
 }
 .list-1 > h1 {
     font-size: 26px;
@@ -90,22 +100,21 @@ ul > li >a {
 }
 .Nut {
     overflow: hidden;
-    display: inline-block;
-    border: 2px solid black;
-    width: 135px;
-    height: 50px;
+    /* display: inline-block; */
     /* margin-top: 130px;
     margin-left: 600px; */
     text-align: center;
-    margin: 100px 50% 130px 44%;
+    /* margin: 100px 50% 130px 44%; */
 }
 .Nut > p {
-    padding-top: 17px;
+    margin: 100px;
 }
 .Nut > p > a  {
-    width: 95px;
+    display: inline-block;
     text-align: center;
     text-decoration: none;
+    border: 2px solid black;
+    padding: 15px;
 }
 .footer {
     background: rgb(222, 220, 220);
@@ -132,4 +141,7 @@ ul > li >a {
 }
 .icon > ul >li {
     width: 15%;
+}
+a {
+    color: rgb(0, 0, 0);
 }
