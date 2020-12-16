@@ -7,6 +7,7 @@
 }
 .header {
     overflow: hidden;
+    padding-bottom: 100px;
 }
 .logo {
     width: 10%;
@@ -43,8 +44,7 @@ ul > li >a {
     font-size: 30px ;
 }
 .article > .item-list {
-    padding-top: 60px;
-    /* margin: auto 7%; */
+    /* padding-top: 60px; */
     padding-left: 7%;
 }
 .article > .item-list > .list-1{
@@ -53,8 +53,6 @@ ul > li >a {
     overflow: hidden;
     padding-top: 75px
 }
-
-
 .list-1 > h5 {
     padding-top: 30px;
 }
@@ -69,24 +67,29 @@ ul > li >a {
 }
 .heading {
     display: inline-block;
-    /* padding: auto 30px; */
+    overflow: hidden;
+    width: 100%;
+    background: rgb(184, 182, 182);
+    margin: 115px auto;
+    padding: 60px;
 }
 .heading > .content {
-    padding-top: 50px;
     text-align: center;
-    margin-top: 70px;
-    background: rgb(184, 182, 182);
-    height: 150px;
     width: 100%;
-    margin-left: 6%;
-    /* background-repeat   : no-repeat; */
 }
 .text  > h2 {
-    padding-bottom: 40px;
+    padding-bottom: 40px; 
     font-size: 20pt;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.nav-bar > .item-list > .list-1{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    padding-top: 0px
+}
 .Nut {
+    overflow: hidden;
     display: inline-block;
     border: 2px solid black;
     width: 135px;
@@ -94,22 +97,21 @@ ul > li >a {
     /* margin-top: 130px;
     margin-left: 600px; */
     text-align: center;
-    margin: 100px 50% 600px 44%;
+    margin: 100px 50% 130px 44%;
 }
-.Nut ul {
+.Nut > p {
     padding-top: 17px;
 }
-.Nut  ul li  {
+.Nut > p > a  {
     width: 95px;
     text-align: center;
+    text-decoration: none;
 }
 .footer {
     background: rgb(222, 220, 220);
-    height: 50px;
+    width: 100%;
     overflow: hidden;
-    margin-top: 250px;
-    display: block;
-    padding-top: 31px;
+    padding: 30px;
 }
 .footer > .link-2 {
     display: inline-block;
