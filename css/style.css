@@ -145,3 +145,19 @@ h3 {
 a {
     color: rgb(0, 0, 0);
 }
+@media only screen and (max-width: 768px) {
+    .article > .item-list > .list-1 {
+        width: 100%;
+        text-align: center;
+    }
+    .heading {
+        width: 145%;
+    }
+    .footer {
+        width: 155%;
+    }
+    .list-1 > p {
+        padding-left: 30%;
+        width: 450px;
+    }
+}
