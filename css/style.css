@@ -145,7 +145,14 @@ h3 {
 a {
     color: rgb(0, 0, 0);
 }
+.icon {
+    display: none;
+}
+
 @media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
     .article > .item-list > .list-1 {
         width: 100%;
         text-align: center;
@@ -159,5 +166,38 @@ a {
     .list-1 > p {
         padding-left: 30%; 
         width: 450px;
+    }
+
+    .header .logo-menu .menu {
+        /* overflow: hidden; */
+        position: relative;
+        
+    }
+    .header .logo-menu a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: red;
+        padding: 14px 16px;  
+        font-size: 17px;
+    }
+    .menu .link-1 {
+        display: none;
+    }
+    .menu ul {
+        background: gray;
+    }
+    .menu .link-1 li {
+        width: 100%;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+    .icon:hover ~ .link-1 {
+        display: block;
+    }
+    .menu ul li a {
+        color: yellow;
+        float: left;
     }
 }
