@@ -22,10 +22,12 @@
 .menu :hover {
     color: rgb(199, 11, 11);
 }
+.menu ul {
+    text-align: right;
+}
 ul > li{
     list-style-type: none;
     display: inline-block;
-    width: 22.5%;
     text-align: right;
     padding-left: 25px;
 }
@@ -126,23 +128,21 @@ h3 {
 }
 .footer > .link-2 {
     display: inline-block;
-    width: 30%;
+    padding: 0 20px
 }
 .footer > .link-2 > a {
     text-decoration: none;
     list-style-type: none;
 }
 .footer > .icon {
-    width: 70%;
     float: right;
+    padding: 0 20px
 }
 .icon > ul {
-    width: 31%; 
-    float: right; 
-    display: inline-block;
-}
-.icon > ul >li {
-    width: 15%;
+    /* width: 31%;  */
+    /* float: right; 
+    display: inline-block; */
+    text-align: right;
 }
 a {
     color: rgb(0, 0, 0);
@@ -205,4 +205,18 @@ a {
         color: yellow;
         float: left;
     }
+    .footer{
+        width: 100%;
+        overflow: hidden;
+    }
+    /* .footer .icon > ul {
+        float: right;
+        display: inline-block;
+    }
+    .footer .icon > .ul > li {
+        list-style-type: none;
+        display: inline-block;
+        text-align: right;
+        padding-left: 25px;
+    } */
 }
