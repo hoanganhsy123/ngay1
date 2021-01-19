@@ -1,8 +1,8 @@
 
 .wrap {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
-    /* overflow: hidden; */
+    overflow: hidden;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .header {
@@ -25,16 +25,18 @@
 ul > li{
     list-style-type: none;
     display: inline-block;
-    width: 24.5%;
+    width: 22.5%;
     text-align: right;
+    padding-left: 25px;
 }
 ul > li >a {
     text-decoration: none;
 }
 .photo > .hinh1 {
+    width: 100%;
     margin: auto;
     padding-bottom: 70px;
-    padding-left: 5%;
+    /* padding-left: 10%; */
 }
 .photo > .selection {
     text-align: justify;
@@ -81,7 +83,7 @@ h3 {
     width: 100%;
     background: rgb(184, 182, 182);
     margin: 115px auto;
-    padding: 60px;
+    padding: 60px 0px;
 }
 .heading > .content {
     text-align: center;
@@ -120,7 +122,7 @@ h3 {
     background: rgb(222, 220, 220);
     width: 100%;
     overflow: hidden;
-    padding: 30px;
+    padding: 30px 0px;
 }
 .footer > .link-2 {
     display: inline-block;
@@ -135,7 +137,7 @@ h3 {
     float: right;
 }
 .icon > ul {
-    width: 30%; 
+    width: 31%; 
     float: right; 
     display: inline-block;
 }
@@ -145,7 +147,7 @@ h3 {
 a {
     color: rgb(0, 0, 0);
 }
-.icon {
+.menu .icon {
     display: none;
 }
 
@@ -158,14 +160,15 @@ a {
         text-align: center;
     }
     .heading {
-        width: 145%;
+        width: 100%;
     }
     .footer {
-        width: 155%;
+        width: 100%;
     }
     .list-1 > p {
-        padding-left: 30%; 
-        width: 450px;
+        padding-left: 20%; 
+        padding-bottom: 50px
+        
     }
 
     .header .logo-menu .menu {
@@ -184,6 +187,8 @@ a {
     }
     .menu .link-1 {
         display: none;
+        width: 100%;
+        margin-top: 34px;
     }
     .menu ul {
         background: gray;
